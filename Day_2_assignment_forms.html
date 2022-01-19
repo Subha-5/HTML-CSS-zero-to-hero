@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h2>Forms</h2>
+    </header>
+    <form action="">
+
+        <fieldset>
+            <legend>Personal info:</legend><br>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="First Name">
+            <input type="text" id="name" name="name" placeholder="Last Name">
+            <br> <br>
+
+            <label for="dob">Date of Birth : </label>
+            <input type="date" id="dob" name="dob">
+            <br> <br>
+
+            <label for="mother_name">Mother's Name : </label>
+            <input type="text" id="mother_name" name="mother_name">
+            <br> <br>
+
+            <label for="father_name">Father's Name : </label>
+            <input type="text" id="father_name" name="father_name">
+            <br> <br>
+
+            <label for="gender">Gender : </label>
+            Male<input type="radio" id="Male" name="gender">
+            Female<input type="radio" id="Female" name="gender">
+            Prefer not to say<input type="radio" id="other" name="gender">
+            <br><br>
+
+            <label for="contact_no">Contact Number : </label>
+            <input type="text" id="contact_no" name="contact_no" placeholder="Enter your phone number">
+            <br><br>
+
+            <label for="address">Address :</label><br>
+            <textarea name="address" id="address" cols="50" rows="5"></textarea>
+            <br>
+            <br>
+
+            <label for="more">Tell us about yourself :</label><br>
+            <textarea name="more" id="more" cols="50" rows="7"></textarea>
+            <br>
+            <br>
+
+            <label for="status">Applying as a :</label>
+            <select name="mystatus" id="status">
+                <option value="student">Student</option>
+                <option value="Working">Working</option>
+                <option value="Enterpreneur">Enterpreneur</option>
+                <option value="not">Prefer not to say</option>
+            </select>
+
+        </fieldset><br>
+
+        <input type="color">
+        <input type="submit" value="Save and Submit">
+        <input type="reset" value="Clear form">
+    </form>
+</body>
+
+</html>
