@@ -1,0 +1,74 @@
+.contact{
+    /* border: 2px solid red; */
+    margin-left: 23px;
+    margin-bottom: 23px;
+    background-color: rgb(231, 149, 95);
+    background: url(https://cdn.pixabay.com/photo/2015/10/30/15/07/contact-us-1014232_960_720.png) no-repeat center center / cover;
+}
+.contact2{
+    margin: 53px;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+h1{
+    background-color: yellow;
+    margin: 10px 620px;
+    text-align: center;
+    border-radius: 100px;
+
+}
+
+label,h4{
+    font-size: large;
+    margin: 10px;
+    font-weight: bold;
+}
+input{
+    border-radius: 7px;
+    margin-top: 25px;
+    padding: 5px 15px;
+    font-size: 17px;
+}
+#email{
+    margin-bottom: 25px;
+} 
+textarea{
+    margin: 10px 80px;
+    border-radius: 7px;
+    /* margin-top: 25px; */
+    font-size: 17px;
+}
+
+label{
+    padding: 23px auto;
+}
+.gender{
+    margin-left: 48px;
+    margin-right: 7px;
+}
+p{
+    font-size: large;
+    margin: 10px;
+}
+.Cont, .Email, .Address {
+    display: flex;
+    width: 30%;
+    /* width: 30%; */
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(227, 227, 255);
+    /* align-content: center; */
+    text-align: center;
+}
+
+#submit, #reset{
+    padding: 10px 20px;
+    margin: 10px solid black;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 300px;
+    background-color: rgb(215, 255, 71);
+    border-radius: 23px;
+    cursor: pointer;
+}
