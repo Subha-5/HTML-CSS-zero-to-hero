@@ -1,0 +1,77 @@
+body{
+    background: url(https://ecommerce-manager.pl/wp-content/uploads/2018/12/sklep-interetowy-abonamnet.jpg) no-repeat center center / cover;
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: sticky;
+    top: 0;
+}
+#navbar::before{
+    content: "";
+    /* background-color: wheat; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.4; */
+    border-radius: 100px;
+}
+
+#logo{
+    margin: 0px 20px;
+}
+#logo img{
+    height: 70px;
+    margin: 3px 6px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 2px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: blue;
+    /* background-color: white; */
+}
+
+.details{
+    background-color: rgb(199, 199, 255);
+    padding: 10px;
+    border-radius: 35px;
+    margin: 150px;
+    margin-top: 200px;
+    margin-right: 800px;
+    
+}
+h3{
+    font-weight: bold;
+    font-size: xx-large;
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+}
